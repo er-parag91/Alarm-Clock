@@ -1,0 +1,29 @@
+.Page {
+  box-sizing: border-box;
+}
+
+.Watch {
+  display: block;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.Alert {
+  animation-name: alertMode;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes alertMode {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: green;
+  }
+}
